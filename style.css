@@ -3,3 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
+}
