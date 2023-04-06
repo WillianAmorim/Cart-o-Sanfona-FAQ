@@ -23,6 +23,14 @@ main {
   margin-top: 140px;
   width: 327px;
   height: 535px;
+
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  width: 279px;
+  height: 355px;
 }
 
 img {
