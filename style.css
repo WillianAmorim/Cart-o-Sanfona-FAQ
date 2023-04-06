@@ -22,7 +22,7 @@ main {
   gap: 60px;
   margin-top: 140px;
   width: 327px;
-  height: 535px;
+  height: 100%;
 
   display: flex;
   flex-direction: column;
