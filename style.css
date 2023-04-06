@@ -60,6 +60,13 @@ section > h1 {
   color: #1E1F36;
 }
 
+h2 {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #4B4C5F;
+}
+
 section > ul {
   list-style: none;
 }
