@@ -43,3 +43,7 @@ section {
 section > h1 {
   text-align: center;
 }
+
+section > ul {
+  list-style: none;
+}
