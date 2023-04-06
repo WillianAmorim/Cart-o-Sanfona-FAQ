@@ -19,7 +19,6 @@ main {
   border-radius: 23px;
   display: flex;
   flex-direction: column;
-  gap: 60px;
   margin-top: 140px;
   width: 327px;
   height: 100%;
@@ -32,7 +31,7 @@ main {
 
 div {
   width: 237px;
-  height: 180px;
+  height: 139.37px;
 }
 
 section {
