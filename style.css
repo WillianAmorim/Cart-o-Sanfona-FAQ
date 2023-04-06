@@ -30,12 +30,16 @@ main {
   justify-content: center;
 }
 
+img {
+  width: 237px;
+  height: 180px;
+}
+
 section {
   width: 279px;
   height: 355px;
 }
 
-img {
-  width: 237px;
-  height: 180px;
+section > h1 {
+  text-align: center;
 }
