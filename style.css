@@ -31,7 +31,7 @@ main {
   justify-content: center;
 }
 
-div {
+#div-img {
   width: 237px;
   height: 139.37px;
 }
@@ -65,6 +65,17 @@ ul {
   flex-direction: column;
   gap: 17px;
   list-style: none;
+}
+
+li > div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow {
+  width:8px;
+  height:4px
 }
 
 h2 {
