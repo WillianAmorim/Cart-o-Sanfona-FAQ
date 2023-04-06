@@ -30,7 +30,7 @@ main {
   justify-content: center;
 }
 
-img {
+div {
   width: 237px;
   height: 180px;
 }
@@ -38,6 +38,16 @@ img {
 section {
   width: 279px;
   height: 355px;
+}
+
+#img-pattern {
+  position: absolute;
+}
+
+#img-online {
+  position: relative;
+  top: -110px;
+
 }
 
 section > h1 {
