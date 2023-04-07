@@ -23,7 +23,6 @@ main {
   flex-direction: column;
   margin-top: 140px;
   width: 327px;
-  min-height: 100vh;
   margin-bottom: 80px;
 
   display: flex;
@@ -40,6 +39,7 @@ main {
 section {
   width: 279px;
   height: auto;
+  margin-bottom: 45px;
 }
 
 #img-pattern {
@@ -89,6 +89,7 @@ h2 {
 }
 
 p {
+  display: none;
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
