@@ -88,8 +88,12 @@ h2 {
   color: #4B4C5F;
 }
 
-p {
+.p-hidden {
   display: none;
+}
+
+.p-show {
+  display: flex;
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
