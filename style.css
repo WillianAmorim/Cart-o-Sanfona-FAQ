@@ -88,6 +88,10 @@ h2 {
   color: #4B4C5F;
 }
 
+.div-click {
+  cursor: pointer;
+}
+
 .p-hidden {
   display: none;
 }
