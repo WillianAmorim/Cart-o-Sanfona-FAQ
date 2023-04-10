@@ -109,31 +109,5 @@ h2 {
 @media (min-width: 768px) {
   /* regras de estilo para dispositivos de desktop */
 
-  main {
-    flex-direction: row;
-    width: 920px;
-    justify-content: space-between;
-    overflow: hidden;
-  }
-
-  #div-img-mobile {
-    display: none;
-  }
-
-  #div-img-desktop {
-    position: relative;
-    right: 100px;
-  }
-
-  #img-pattern-desktop {
-    position: absolute;
-    width: 472px;
-    height: auto;
-  }
-
-  #img-online-desktop {
-    position: relative;
-    width: 472px;
-    height: 359px;
-  }
+  
 }
