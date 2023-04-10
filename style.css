@@ -105,3 +105,13 @@ h2 {
   margin-bottom: 15px;
   padding-right: 15px;
 }
+
+@media (min-width: 768px) {
+  /* regras de estilo para dispositivos de desktop */
+
+  main {
+    flex-direction: row;
+    width: 920px;
+    justify-content: space-between;
+  }
+}
