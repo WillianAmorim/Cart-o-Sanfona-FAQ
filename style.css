@@ -109,5 +109,23 @@ h2 {
 @media (min-width: 768px) {
   /* regras de estilo para dispositivos de desktop */
 
-  
+  #div-img-mobile {
+    display: none;
+  }
+
+  #icon-a {
+    display: none;
+  }
+
+  body {
+    align-items: center;
+  }
+
+  main {
+    width: 920px;
+    height: 509px;
+    margin-top: 0;
+    margin-bottom: 0;
+    flex-direction: row;
+  }
 }
