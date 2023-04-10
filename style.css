@@ -142,4 +142,8 @@ h2 {
     position: relative;
     right: 100px;
   }
+
+  section {
+    margin-right: 100px;
+  }
 }
