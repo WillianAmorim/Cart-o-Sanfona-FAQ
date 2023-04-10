@@ -42,11 +42,11 @@ section {
   margin-bottom: 45px;
 }
 
-#img-pattern {
+#img-pattern-mobile {
   position: absolute;
 }
 
-#img-online {
+#img-online-mobile {
   position: relative;
   top: -110px;
 
@@ -114,4 +114,10 @@ h2 {
     width: 920px;
     justify-content: space-between;
   }
+
+  #div-img-mobile {
+    display: none;
+  }
+
+  
 }
