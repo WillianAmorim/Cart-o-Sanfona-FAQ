@@ -119,13 +119,27 @@ h2 {
 
   body {
     align-items: center;
+    overflow: hidden;
   }
 
   main {
-    width: 920px;
+    overflow: hidden;
+    width: 1000px;
     height: 509px;
     margin-top: 0;
     margin-bottom: 0;
     flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #img-pattern-desktop {
+    position: absolute;
+    top: -160px;
+    right: 800px;
+  }
+
+  #img-online-desktop {
+    position: relative;
+    right: 100px;
   }
 }
