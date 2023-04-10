@@ -119,5 +119,18 @@ h2 {
     display: none;
   }
 
-  
+  #div-img-desktop {
+    position: relative;
+    right: 70px;
+  }
+
+  #img-pattern-desktop {
+    position: absolute;
+    width: 472px;
+    height: auto;
+  }
+
+  #img-online-desktop {
+    position: relative;
+  }
 }
