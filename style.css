@@ -144,4 +144,9 @@ h2 {
   section {
     margin-left: 150px;
   }
+
+  h2 {
+    font-size: 14px;
+    line-height: 17px;
+  }
 }
