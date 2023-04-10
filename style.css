@@ -129,21 +129,15 @@ h2 {
     margin-top: 0;
     margin-bottom: 0;
     flex-direction: row;
-    justify-content: space-between;
-  }
-
-  #img-pattern-desktop {
-    position: absolute;
-    top: -160px;
-    right: 800px;
+    justify-content: flex-start;
+    background-image: url('./images/bg-pattern-desktop.svg');
+    background-repeat: no-repeat;
+    background-position-x: -600px;
+    background-position-y: -280px;
   }
 
   #img-online-desktop {
     position: relative;
     right: 100px;
-  }
-
-  section {
-    margin-right: 100px;
   }
 }
