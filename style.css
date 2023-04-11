@@ -6,6 +6,14 @@
   font-style: normal;
 }
 
+#div-img-desktop {
+  display: none;
+}
+
+#icon-a {
+  display: none;
+}
+
 body {
   background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
   background-repeat: no-repeat;
@@ -109,6 +117,14 @@ h2 {
 @media (min-width: 768px) {
   /* regras de estilo para dispositivos de desktop */
 
+  #div-img-desktop {
+    display: block;
+  }
+  
+  #icon-a {
+    display: block;
+  }
+
   #div-img-mobile {
     display: none;
   }
@@ -129,7 +145,7 @@ h2 {
     margin-top: 0;
     margin-bottom: 0;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     background-image: url('./images/bg-pattern-desktop.svg');
     background-repeat: no-repeat;
     background-position-x: -600px;
@@ -142,7 +158,7 @@ h2 {
   }
 
   section {
-    margin-left: 150px;
+    margin-right: 150px;
   }
 
   h2 {
